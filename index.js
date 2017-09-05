@@ -11,3 +11,7 @@ function iterate(callback) {
 
   return fruits
 }
+
+function doToArray(array, callback) {
+  array.forEach(callback)
+}
