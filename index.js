@@ -5,5 +5,9 @@ function iterativeLog(array) {
 }
 
 function iterate(callback) {
-  
+  const fruits = ["apple", "bananna", "watermelon"]
+
+  fruits.forEach(callback)
+
+  return fruits
 }
