@@ -3,3 +3,7 @@ function iterativeLog(array) {
     console.log(`${i}: ${el}`)
   })
 }
+
+function iterate(callback) {
+  
+}
